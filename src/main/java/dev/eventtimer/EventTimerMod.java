@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 public class EventTimerMod implements ClientModInitializer {
-    static final String COMMAND = "event delay";
+    static final String COMMAND = "event";
     static final int INTERVAL_TICKS = 20 * 60;
 
     static boolean enabled = false;
